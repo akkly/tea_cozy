@@ -1,0 +1,122 @@
+
+/* Remove margin and padding */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	font-family: Helvetica;
+	font-size:22px;
+	color:seashell;
+	background-color: black;
+	opacity:0.9;	
+}
+
+/* Header Section */
+
+header{
+	height:69px;
+	width:100%;
+	border-bottom: 1px solid seashell;
+	position:fixed;
+	display:flex;	
+	background-color:black;
+	align-items: center;
+}
+
+/* Logo */
+
+header img{
+	height:50px;
+	margin: 10px;
+	padding-left: :10px;
+}
+
+
+/* Navigation Menu */
+
+nav{
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;	
+}
+
+nav a{
+	text-decoration: underline;
+	 color: seashell;
+}
+
+li{
+	display: flex;
+	list-style-type: none;
+	padding: 15px;
+	margin-right: 20px;
+	color:seashell;
+}
+
+
+/* Our Mission Section */
+
+.main{
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	height:700px;
+	width:1200px;
+	align-items: center;
+  	text-align: center;
+  	margin: 0 auto;
+  	display: flex;
+}
+
+.mission{
+	background-color: black;
+	width:1200px;
+}
+
+/* Featured */
+
+.tea{
+	display: block;
+}
+
+.featured{
+	width: 1000px;
+	display:block;
+	align-items: center;
+  	text-align: center;
+}
+
+.container-items{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.item{
+	display: flex;
+	height:200px;
+	width:300px;
+	margin:10px;
+}
+
+.location{
+	display:;
+}
+
+.address{
+	width:300px;
+	margin:20px;
+	background-color: black;
+}
+
+.contact{
+
+}
+
+.footer{
+	
+}
+
